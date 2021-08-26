@@ -1,0 +1,36 @@
+#question{
+  .q-item__label {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .q-list {
+    width:70%;
+    background: linen;
+  }
+
+  .q-card__section {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .q-stepper {
+    display: flex;
+    width:800px;
+    height:100%;
+  }
+
+  .q-stepper__title {
+    font-size: 1.5rem;
+  }
+
+  .q-stepper__dot {
+    font-size: 1.3rem;
+    width:30px;
+    height:30px;
+  }
+
+  .q-stepper__step-inner {
+    font-size: 1.1rem;
+  }
+}

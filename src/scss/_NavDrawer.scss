@@ -1,0 +1,55 @@
+#navDrawer{
+  .q-header {
+    .q-img {
+      width: 50px;
+      border-radius: 50%;
+    }
+    #logo {
+      font-size: 1.2rem;
+    }
+    #name {
+      font-size: 1.2rem;
+    }
+    
+  }
+    
+  .q-drawer{
+    .q-expansion-item__container {
+      .q-item {
+        padding: 0;
+        .q-item__section--avatar {
+          align-items: flex-start;
+        }
+        .q-item__section--main {
+          width:70px;
+        }
+      }
+    }
+  }  
+
+  #mainDrawer{
+    font-size: 1rem;
+    .full-width {
+      height:100%;
+      display: flex;
+      flex-direction: column;
+      padding:50px 0 50px 0;
+    }
+    .scroll {
+      overflow: hidden;
+    }
+}
+
+  #mainDrawer > aside > div > div > div.scroll.relative-position.fit.hide-scrollbar {
+    display:flex;
+  }
+
+  .q-footer {
+    a {
+      text-decoration: none;
+      color: white;
+      margin:0 10px 0 10px
+    }
+}
+
+}

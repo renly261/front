@@ -1,0 +1,344 @@
+#home a {
+  text-decoration: none;
+}
+
+#home .custom-caption {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#home #news .my-card {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#home #news .my-card .q-card__section {
+  height: 100%;
+}
+
+#home #news .my-card .q-card__actions {
+  height: 60px;
+}
+
+#home #info .q-card.my-card {
+  width: 90%;
+}
+
+#navDrawer .q-header .q-img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+#navDrawer .q-header #logo {
+  font-size: 1.2rem;
+}
+
+#navDrawer .q-header #name {
+  font-size: 1.2rem;
+}
+
+#navDrawer .q-drawer .q-expansion-item__container .q-item {
+  padding: 0;
+}
+
+#navDrawer .q-drawer .q-expansion-item__container .q-item .q-item__section--avatar {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#navDrawer .q-drawer .q-expansion-item__container .q-item .q-item__section--main {
+  width: 70px;
+}
+
+#navDrawer #mainDrawer {
+  font-size: 1rem;
+}
+
+#navDrawer #mainDrawer .full-width {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 0 50px 0;
+}
+
+#navDrawer #mainDrawer .scroll {
+  overflow: hidden;
+}
+
+#navDrawer #mainDrawer > aside > div > div > div.scroll.relative-position.fit.hide-scrollbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navDrawer .q-footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px 0 10px;
+}
+
+#about iframe {
+  width: 80%;
+  min-height: 450px;
+}
+
+#about #aboutContent .q-img {
+  width: 100%;
+  height: 600px;
+  margin: 0px 100px 0 100px;
+}
+
+#about .aboutText {
+  padding: 0 200px 0 200px;
+}
+
+#adminProduct .q-breadcrumbs {
+  font-size: 1.1rem;
+}
+
+#adminProduct .q-card {
+  margin-top: 50px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.25);
+          box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.25);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#adminProduct .q-card:hover {
+  margin-top: 30px;
+  -webkit-box-shadow: 0 0 1px 3px rgba(51, 51, 51, 0.5);
+          box-shadow: 0 0 1px 3px rgba(51, 51, 51, 0.5);
+}
+
+#adminProductBuy .q-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 400px;
+}
+
+#adminProductBuy .q-slider__pin-text-container span {
+  font-size: 1.1rem;
+}
+
+#adminProductBuy .q-item {
+  padding: 0;
+}
+
+#favorite .q-img {
+  width: 400px;
+  background-size: cover;
+}
+
+#favorite .q-card {
+  min-height: 800px;
+}
+
+#favorite h5 {
+  margin: 30px 0 0 0;
+}
+
+#question .q-item__label {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#question .q-list {
+  width: 70%;
+  background: linen;
+}
+
+#question .q-card__section {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#question .q-stepper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  height: 100%;
+}
+
+#question .q-stepper__title {
+  font-size: 1.5rem;
+}
+
+#question .q-stepper__dot {
+  font-size: 1.3rem;
+  width: 30px;
+  height: 30px;
+}
+
+#question .q-stepper__step-inner {
+  font-size: 1.1rem;
+}
+
+#productCard #form .q-input {
+  width: 25%;
+}
+
+#productCard #product.my-card {
+  width: 100%;
+  height: 100%;
+}
+
+#productCard #product.my-card #name {
+  height: 100px;
+  margin-bottom: 0;
+}
+
+#cart #price {
+  margin-top: 10px;
+}
+
+#cart #check .col-12 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#cart #check .q-btn {
+  font-size: 1.2rem;
+}
+
+#cart .q-table__title {
+  font-size: 2rem;
+}
+
+#adminProductManage .q-td {
+  font-size: 1rem;
+}
+
+#adminProductManage th {
+  font-size: 1.2rem;
+}
+
+#adminProductManage .q-table__title {
+  font-size: 1.5rem;
+}
+
+#adminProductManage .q-btn span {
+  font-size: 0.9rem;
+}
+
+#adminProductManage .q-table__control span {
+  font-size: 1rem;
+}
+
+#adminProductManage .my-custom-toggle {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1px solid #027be3;
+          order: 1px solid #027be3;
+}
+
+#adminOrderManage .q-td {
+  font-size: 1rem;
+}
+
+#adminOrderManage th {
+  font-size: 1.2rem;
+}
+
+#adminOrderManage .q-table__title {
+  font-size: 1.5rem;
+}
+
+#adminOrderManage .q-btn span {
+  font-size: 0.9rem;
+}
+
+#adminOrderManage .q-table__control span {
+  font-size: 1.2rem;
+}
+
+#adminOrderManage .q-btn__content span {
+  width: 100%;
+}
+
+#adminOrderManage .q-btn__content .q-icon {
+  height: 0;
+}
+
+#adminMemberManage .q-td {
+  font-size: 1rem;
+}
+
+#adminMemberManage th {
+  font-size: 1.2rem;
+}
+
+#adminMemberManage .q-table__title {
+  font-size: 1.5rem;
+}
+
+#adminMemberManage .q-btn span {
+  font-size: 0.9rem;
+}
+
+#adminMemberManage .q-table__control span {
+  font-size: 1rem;
+}
+
+#userOrderManage .q-td {
+  font-size: 1rem;
+}
+
+#userOrderManage th {
+  font-size: 1.2rem;
+}
+
+#userOrderManage .q-table__title {
+  font-size: 1.5rem;
+}
+
+#userOrderManage .q-btn span {
+  font-size: 0.9rem;
+}
+
+#userOrderManage .q-table__control span {
+  font-size: 1rem;
+}
+
+#userOrderManage .q-btn__content span {
+  width: 100%;
+}
+
+#userOrderManage .q-btn__content .q-icon {
+  height: 0;
+}
+
+#userMemberManage .q-td {
+  font-size: 1rem;
+}
+
+#userMemberManage th {
+  font-size: 1.2rem;
+}
+
+#userMemberManage .q-table__title {
+  font-size: 1.5rem;
+}
+
+#userMemberManage .q-btn span {
+  font-size: 0.9rem;
+}
+
+#userMemberManage .q-table__control span {
+  font-size: 1rem;
+}

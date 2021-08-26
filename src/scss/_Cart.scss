@@ -1,0 +1,17 @@
+#cart{
+  #price {
+    margin-top:10px
+  }
+  #check {
+    .col-12{
+      flex-direction: row-reverse
+    }
+    .q-btn{
+      font-size: 1.2rem;
+    }
+  }
+
+  .q-table__title {
+    font-size: 2rem;
+  }
+}
