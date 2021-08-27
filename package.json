@@ -1,8 +1,8 @@
 {
   "name": "front",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "電腦商品購物網",
+  "productName": "iCom 電腦商品購物網",
   "author": "renly",
   "private": true,
   "scripts": {
