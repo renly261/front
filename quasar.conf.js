@@ -131,9 +131,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Quasar App',
-        short_name: 'Quasar App',
-        description: 'A Quasar Framework app',
+        name: 'iCom 電腦商品購物網',
+        short_name: 'iCom',
+        description: '電腦商品購物網',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
